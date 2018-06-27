@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.hidden {
+    background-color: #ddd;
+}
+
+.remove {
+    background-color: #999;
+}
+
+.hidden > h1 {
+    visibility: hidden;
+}
+
+.remove > h1 {
+    display: none;
+}
