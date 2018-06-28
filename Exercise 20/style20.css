@@ -5,7 +5,7 @@
     border: 1px solid gray;
 }
 
-.container div {
+.container > div {
     position: relative;
     width: 200px;
     height: 200px;
@@ -17,17 +17,17 @@
     text-shadow: 0 2px 1px #777;
 }
 
-.container div:hover {
+.container > div:hover {
     border-radius: 10px;
     background-color: #ddd;
 }
 
-.container div:first-child {
+.container > div:first-child {
     top: 0px;
     left: 60px;
 }
 
-.container div:last-child {
+.container > div:last-child {
     top: 0px;
     left: 260px;
 }
