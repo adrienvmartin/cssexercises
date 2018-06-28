@@ -40,7 +40,7 @@ tfoot a {
     margin-right: 10px;
 }
 
-.active {
+tfoot a.active {
     color: white;
     font-weight: bold;
     background-color: #008cba;
